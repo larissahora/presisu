@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&family=Work+Sans:wght@100;500;600&display=swap');
+
+/*=============================================
+=           definindo variáveis               =
+=============================================*/
+
+:root {
+  --first-color: #bd2606;
+  --title-color: #3c3c3c;
+  --body-color: #f5f2f1;
+  --text-color: #3c3c3c;
+
+  --body-font: 'Varela Round', sans-serif;
+  --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 18px;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+
+  --font-medium: 500;
+  --font-semi-bold: 600;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 5%;
+}
+
+span {
+  font-size: var(--big-font-size);
+  color: #063dbd;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 25%;
+  max-height: 50%;
+  padding-top: 5%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 317px;
+}
+
+input {
+  height: 40px;
+  font-size: 20px;
+  font-family: var(--body-font);
+}
+
+button {
+  width: 200px;
+  height: 55px;
+  border-radius: 50px;
+  color: #063dbd;
+  border: 1px solid #063dbd;
+  align-self: center;
+  font-family: var(--body-font);
+
+  /* border-color: #bd2606; */
+  /* box-shadow: none; */
+  /* border */
+}
+
+select {
+  height: 40px;
+  font-family: var(--body-font);
+}
+
+option {
+  padding-left: 5px;
+}
+
+.container-curso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  margin: 0;
+  /* background-color: #f0f0f0; */
+}
+
+.container-circulos {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 35px;
+}
+
+.curso {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #3498db;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#curso-2 {
+  background-color: #b8b800;
+}
+
+#curso-3 {
+  background-color: #db3444;
+}
+
+ul {
+  padding-left: 40px;
+}
+
+li {
+  padding-top: 5px;
+}
